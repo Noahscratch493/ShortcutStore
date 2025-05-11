@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShortcutStore API</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #111827;
+      color: white;
+    }
+    header {
+      background-color: #0F172A;
+      padding: 2rem 1rem;
+      border-bottom: 1px solid #1E293B;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      background: linear-gradient(to right, #3b82f6, #8b5cf6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
+    }
+    main {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+      text-align: center;
+    }
+    .json-list a {
+      display: block;
+      margin: 1rem 0;
+      padding: 1rem;
+      background-color: #1E293B;
+      border: 1px solid #2D3B4F;
+      border-radius: 0.75rem;
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+    .json-list a:hover {
+      background-color: #2D3B4F;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ShortcutStore API</h1>
+    <p class="text-gray-400">Choose a JSON file to view</p>
+  </header>
+  <main>
+    <div class="json-list">
+      <a href="smallbrowser.json">smallbrowser.json</a>
+      <a href="adhide.json">adhide.json</a>
+      <a href="android.json">android.json</a>
+    </div>
+  </main>
+</body>
+</html>
