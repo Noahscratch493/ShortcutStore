@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShortcutStore</title>
+
+  <!-- Font Awesome 6 Free (no integrity check) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+  />
+
+  <!-- Tailwind CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #111827;
+    }
+    .bg-header {
+      background-color: #0F172A;
+    }
+    .bg-card {
+      background-color: #1E293B;
+    }
+    .border-card {
+      border-color: #2D3F4F;
+    }
+    .bg-avatar {
+      background-color: #2D3F4F;
+    }
+  </style>
+</head>
+<body class="min-h-screen text-white font-sans">
+  <header class="bg-header text-white py-8 px-4 border-b border-card">
+    <div class="max-w-6xl mx-auto">
+      <h1 class="text-3xl md:text-5xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+        ShortcutStore
+      </h1>
+      <p class="text-gray-400 mt-3 text-lg">
+        Premium shortcuts, completely free
+      </p>
+      <div class="mt-4 flex items-center text-sm text-gray-400">
+        <i class="fas fa-wifi mr-2 text-blue-400"></i>
+        <span>
+          Just Needs an Internet Connection and Apple Shortcuts App (iOS 16+) – No jailbreaking needed
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Shortcut 1 -->
+      <div class="bg-card border-card rounded-xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border">
+        <div class="flex items-center mb-6">
+          <div class="w-12 h-12 rounded-full bg-avatar flex items-center justify-center">
+            <i class="fab fa-android text-2xl text-blue-400"></i>
+          </div>
+          <h2 class="text-xl font-bold ml-4 text-white">Android</h2>
+        </div>
+        <p class="text-gray-300 text-sm leading-relaxed">
+          Android emulator for your device
+        </p>
+        <a href="https://www.icloud.com/shortcuts/54c118c7abd9436cad9aca6466d1079b" target="_blank" rel="noopener noreferrer" class="mt-6 w-full bg-gradient-to-r from-blue-500 to-purple-500 text-white py-3 px-4 rounded-lg font-medium hover:opacity-90 transition-opacity duration-200 block text-center">
+          Download Now
+        </a>
+      </div>
+
+      <!-- Shortcut 2 -->
+      <div class="bg-card border-card rounded-xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border">
+        <div class="flex items-center mb-6">
+          <div class="w-12 h-12 rounded-full bg-avatar flex items-center justify-center">
+            <i class="fas fa-shield-alt text-2xl text-blue-400"></i>
+          </div>
+          <h2 class="text-xl font-bold ml-4 text-white">AdHide</h2>
+        </div>
+        <p class="text-gray-300 text-sm leading-relaxed">
+          Powerful ad blocking solution
+        </p>
+        <a href="https://www.icloud.com/shortcuts/701b1ae9876b45488d6fefd80f91f1fb" target="_blank" rel="noopener noreferrer" class="mt-6 w-full bg-gradient-to-r from-blue-500 to-purple-500 text-white py-3 px-4 rounded-lg font-medium hover:opacity-90 transition-opacity duration-200 block text-center">
+          Download Now
+        </a>
+      </div>
+
+      <!-- Shortcut 3 -->
+      <div class="bg-card border-card rounded-xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border">
+        <div class="flex items-center mb-6">
+          <div class="w-12 h-12 rounded-full bg-avatar flex items-center justify-center">
+            <i class="fab fa-apple text-2xl text-blue-400"></i>
+          </div>
+          <h2 class="text-xl font-bold ml-4 text-white">SmallBrowser</h2>
+        </div>
+        <p class="text-gray-300 text-sm leading-relaxed">
+          Apple Watch web browser
+        </p>
+        <a href="https://www.icloud.com/shortcuts/63de1a345e6a42c8b08723454f6bf8b7" target="_blank" rel="noopener noreferrer" class="mt-6 w-full bg-gradient-to-r from-blue-500 to-purple-500 text-white py-3 px-4 rounded-lg font-medium hover:opacity-90 transition-opacity duration-200 block text-center">
+          Download Now
+        </a>
+      </div>
+
+    </div>
+  </main>
+</body>
+</html>
