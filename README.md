@@ -1,6 +1,6 @@
 # ShortcutStore
 
-Welcome to **ShortcutStore**! A collection of premium shortcuts for iOS devices. All shortcuts are completely free and easy to install.
+Welcome to **ShortcutStore**, a collection of premium shortcuts for iOS devices. All shortcuts are free and easy to install.
 
 ### Features:
 
@@ -32,7 +32,7 @@ Welcome to **ShortcutStore**! A collection of premium shortcuts for iOS devices.
 
 ## How to Install:
 
-1. Go to the site: **[noahscratch493.github.io/ShortcutStore](https://noahscratch493.github.io/ShortcutStore)**.
+1. Go to the site: **[noahscratch493.github.io/shortcutstore](https://noahscratch493.github.io/shortcutstore)**.
 2. Press **"Download Now"** on the shortcut you need.
 3. Press **"Get Shortcut"**, and it will open in the Shortcuts App.
 4. Add the shortcut to your device, and you’re ready to go!
@@ -51,4 +51,4 @@ Welcome to **ShortcutStore**! A collection of premium shortcuts for iOS devices.
 
 You can visit the ShortcutStore directly at:
 
-**[noahscratch493.github.io/ShortcutStore](https://noahscratch493.github.io/ShortcutStore)**
+**[noahscratch493.github.io/ShortcutStore](https://noahscratch493.github.io/shortcutstore)**
