@@ -51,4 +51,4 @@ Welcome to **ShortcutStore**, a collection of premium shortcuts for iOS devices.
 
 You can visit the ShortcutStore directly at:
 
-**[noahscratch493.github.io/ShortcutStore](https://noahscratch493.github.io/shortcutstore)**
+**[noahscratch493.github.io/shortcutstore](https://noahscratch493.github.io/shortcutstore)**
